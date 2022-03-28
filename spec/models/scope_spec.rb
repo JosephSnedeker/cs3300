@@ -9,10 +9,19 @@ RSpec.describe Project, type: :model do
       Project.create(params)
       Project.create(params)
       Project.create(params)
+      Project.create(params)
+      Project.create(params)
+      Project.create(params)
+      Project.create(params)
+      Project.create(params)
+      Project.create(params)
+      Project.create(params)
+      #note kanban board for requirement of at least 10 functionioning projects
+
     end
 
     it "should return all projects" do
-      expect(Project.count).to eq(3)
+      expect(Project.count).to eq(10)
     end
 
   end

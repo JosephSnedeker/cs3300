@@ -16,4 +16,12 @@ RSpec.describe ProjectsController, type: :controller do
       expect(response).to be_success
     end
   end
+
+  #context "PATCH #update" do
+  #let!(:project) { Project.create(title: "Test title", description: "Test description") }
+  #it "returns a success response" do
+    #get :update, params: { title: "Edited Test title", description: "Edited Test description"  }
+    #expect(response).to be_success
+  #end
+#end
 end
